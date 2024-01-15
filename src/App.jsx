@@ -11,7 +11,7 @@ import {
 
 export default function App() {
   return (
-    <main className="max-container font-grotesk">
+    <main className="relative font-grotesk">
       <section className="padding-x">
         <Hero />
       </section>
