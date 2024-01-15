@@ -1,8 +1,18 @@
+import {
+  Hero,
+  StayConnected,
+  PowerOfEchobot,
+  TryIt,
+  CustomerRevier,
+  GetMobile,
+  FAQ,
+  Footer,
+} from "./sections";
+
 export default function App() {
   return (
-    <main>
-      <Nav />
-      <section className="padding">
+    <main className="max-container">
+      <section className="padding-x">
         <Hero />
       </section>
       <section className="padding">
@@ -18,15 +28,12 @@ export default function App() {
         <CustomerRevier />
       </section>
       <section className="padding">
-        <Hero />
-      </section>
-      <section className="padding">
         <GetMobile />
       </section>
       <section className="padding">
         <FAQ />
       </section>
-      <section className="padding">
+      <section className="padding-x">
         <Footer />
       </section>
     </main>
