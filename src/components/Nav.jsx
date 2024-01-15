@@ -1,5 +1,10 @@
+import Logo from "./Logo";
 const Nav = () => {
-  return <div>Nav</div>;
+  return (
+    <div>
+      <Logo />
+    </div>
+  );
 };
 
 export default Nav;
