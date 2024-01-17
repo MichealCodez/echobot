@@ -2,7 +2,9 @@ import Logo from "./Logo";
 const Nav = () => {
   return (
     <div>
-      <Logo />
+      <div>
+        <Logo />
+      </div>
     </div>
   );
 };
