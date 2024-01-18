@@ -2,7 +2,7 @@ const LoginButton = () => {
   return (
     <a
       href="#"
-      className="bg-minGrad px-5 h-8 rounded-lg flex justify-center items-center text-secondary"
+      className="bg-minGrad w-[92px] h-[39px] text-[16px] rounded-[8px] flex justify-center items-center text-secondary hover:scale-[1.1]"
     >
       Login
     </a>
