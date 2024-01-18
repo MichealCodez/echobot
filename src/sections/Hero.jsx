@@ -4,17 +4,17 @@ const Hero = () => {
   return (
     <div>
       <Nav />
-      <div className="flex items-center gap-2 max-md:flex-col max-md:mt-10">
+      <div className="flex items-center justify-between max-md:flex-col max-md:mt-10">
         <div className="flex flex-col gap-[25px]">
-          <h3 className="text-[48px] font-semibold leading-[120%] text-secondary w-[641px]e">
+          <h3 className="text-[48px] font-semibold leading-[120%] text-secondary max-w-[641px]">
             Elevate Your Conversations with Echobot- Your Personal AI Assistant.
           </h3>
-          <p className="text-[20px] leading-[150%] font-normal text-slate-gray w-[587px]e">
+          <p className="text-[20px] leading-[150%] font-normal text-slate-gray max-w-[587px]">
             EchoBot is here to make your conversations smarter and more
             enjoyable. Start chatting now and discover the power of AI at your
             fingertips!
           </p>
-          <div className="flex gap-[30px] mt-5">
+          <div className="flex gap-[30px] mt-2">
             <Button />
             <Button text={"See  how its works"} color={"bg-secondary"} />
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Brown Robot"
           width={500}
           height={500}
-          className="w-[821px] h-[821px] mt-10 mr-5"
+          className="max-w-[822px] h-[822px] mt-5 mr-5"
         />
       </div>
     </div>
