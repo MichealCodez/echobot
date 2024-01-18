@@ -22,7 +22,7 @@ export default {
         primary: "#FF0F7B",
         secondary: "#001D3D",
         "coral-red": "#FF6452",
-        "slate-gray": "#F5F5F5",
+        "slate-gray": "#54687D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
       },

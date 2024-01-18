@@ -11,6 +11,12 @@
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 a {
   display: inline-block;
 }
