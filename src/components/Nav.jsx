@@ -13,9 +13,9 @@ const Nav = () => {
           How It Works
         </a>
       </div>
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-2 items-center font-medium max-sm:hidden">
         <LoginButton />
-        <Button />
+        <Button color={"bg-grad"} text={"Start Chat"} />
       </div>
     </div>
   );

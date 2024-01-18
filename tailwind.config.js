@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        grotesk: ["Hanken Grotesk", "sans-serif"],
+        grotesk: ["Familjen Grotesk", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
       colors: {
