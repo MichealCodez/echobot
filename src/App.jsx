@@ -12,7 +12,7 @@ import {
 export default function App() {
   return (
     <main className="relative font-grotesk">
-      <section className="padding-x">
+      <section className="padding-x bg-hero">
         <Hero />
       </section>
       <section className="padding">

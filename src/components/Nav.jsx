@@ -19,8 +19,6 @@ const Nav = () => {
       <div className="flex gap-2 items-center font-bold max-sm:hidden">
         <LoginButton />
         <Button
-          color={"bg-grad"}
-          text={"Start Chat"}
           width={"w-[129px]"}
           height={"h-[39px]"}
           radius={"rounded-[8px]"}
