@@ -9,11 +9,11 @@ const Nav = () => {
         <a href="/">
           <Logo color={"text-secondary"} />
         </a>
-        <a href="#try-it" className=" text-lg text-g text-secondary">
+        <a href="#try-it" className=" text-lg font-semibold text-secondary">
           How It Works
         </a>
       </div>
-      <div className="flex gap-2 items-center font-medium max-sm:hidden">
+      <div className="flex gap-2 items-center font-bold max-sm:hidden">
         <LoginButton />
         <Button color={"bg-grad"} text={"Start Chat"} />
       </div>
