@@ -1,6 +1,6 @@
 import { Button } from "../components";
 import { language } from "../assets/images";
-import { multiLang } from "../constants";
+import { multiLang, details } from "../constants";
 import { tickCircle } from "../assets/icons";
 
 const StayConnected = () => {
@@ -16,32 +16,18 @@ const StayConnected = () => {
         </p>
         <Button />
       </div>
-      <div>
-        <div>
-          <div>
-            <h6>Website</h6>
-            <p>
-              Enhance user engagement on your website with our chatbot. From
-              answering queries to guiding users, our chatbot ensures a
-              personalized and interactive web experience.
-            </p>
-          </div>
-          <div>
-            <h6>Live Chat(B2B)</h6>
-            <p>
-              Empower your customer support with our chatbot integrated into
-              live chat systems. Instant responses, smart issue resolution – all
-              at your fingertips for unparalleled customer satisfaction.
-            </p>
-          </div>
-          <div>
-            <h6>Messenger</h6>
-            <p>
-              Extend your reach on messaging platforms with our chatbot
-              solutions. From Facebook Messenger to other messaging apps,
-              connect with your audience wherever they are.
-            </p>
-          </div>
+      <div className="flex gap-[63px] mt-[81px]">
+        <div className="flex flex-col gap-[24px]">
+          {details.map((value) => (
+            <div className="flex flex-col border-solid border-b border-[[#E6E8EC]] w-[463px] h-[191px] p-[16px] items-start gap-[10px] first:rounded-[8px] first:bg-[#F5F5F5] first:border-none">
+              <h6 className="text-[20px] font-bold leading-[150%] text-secondary">
+                {value.title}
+              </h6>
+              <p className="text-secondary text-[20px] font-normal leading-[150%]">
+                {value.description}
+              </p>
+            </div>
+          ))}
         </div>
         <div>
           <div>
