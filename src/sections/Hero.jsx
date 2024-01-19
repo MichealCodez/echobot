@@ -14,7 +14,7 @@ const Hero = () => {
             enjoyable. Start chatting now and discover the power of AI at your
             fingertips!
           </p>
-          <div className="flex gap-[30px] mt-2">
+          <div className="flex gap-[30px] mt-2 max-md:flex-col">
             <Button />
             <Button text={"See  how its works"} color={"bg-secondary"} />
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Brown Robot"
           width={500}
           height={500}
-          className="max-w-[822px] h-[822px] mt-5 mr-5"
+          className="max-w-[822px] h-[822px] mt-5 mr-5 max-md:w-[350px] max-md:h-[600px]"
         />
       </div>
     </div>
