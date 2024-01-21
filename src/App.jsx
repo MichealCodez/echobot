@@ -12,7 +12,7 @@ import {
 export default function App() {
   return (
     <main className="relative font-grotesk w-full max-container">
-      <section className="padding-x bg-hero">
+      <section className="padding-x bg-hero max-container">
         <Hero />
       </section>
       <section className="padding">

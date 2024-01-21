@@ -5,7 +5,7 @@ const Hero = () => {
     <div>
       <Nav />
       <div className="flex items-center justify-between max-md:flex-col max-md:mt-10">
-        <div className="flex flex-col gap-[25px]">
+        <div className="flex flex-col gap-[25px] mt-[-6%]">
           <h3 className="text-[48px] font-semibold leading-[120%] text-secondary max-w-[641px]">
             Elevate Your Conversations with Echobot- Your Personal AI Assistant.
           </h3>
@@ -15,7 +15,7 @@ const Hero = () => {
             fingertips!
           </p>
           <div className="flex gap-[30px] mt-2 max-md:flex-col">
-            <Button />
+            <Button text="Get started for free" />
             <Button text={"See  how its works"} color={"bg-secondary"} />
           </div>
         </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Brown Robot"
           width={500}
           height={500}
-          className="max-w-[822px] h-[822px] mt-5 mr-5 max-md:w-[350px] max-md:h-[600px]"
+          className="max-w-[821px] h-[821px] mr-2 max-md:w-[350px] max-md:h-[600px] max-md:mt-5"
         />
       </div>
     </div>

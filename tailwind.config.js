@@ -15,8 +15,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        grotesk: ["Familjen Grotesk", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        grotesk: ["Overused Grotesk", "sans-serif"],
       },
       colors: {
         primary: "#FF0F7B",
@@ -30,7 +29,7 @@ export default {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        hero: "linear-gradient(180deg, #F6F8FC 0%, rgba(255, 255, 255, 0.40) 100%)",
+        hero: "linear-gradient(135deg, rgba(255, 15, 123, 0.10) 10%, rgba(255, 255, 255, 0.40) 50%)",
         grad: "linear-gradient(97deg, #FF0F7B -65.41%, #F89B29 149.49%)",
         minGrad:
           "linear-gradient(96deg, rgba(255, 15, 123, 0.10) -8.85%, rgba(248, 155, 41, 0.10) 108%)",

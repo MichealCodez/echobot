@@ -9,12 +9,6 @@ const Nav = () => {
         <a href="/">
           <Logo color={"text-secondary"} />
         </a>
-        <a
-          href="#try-it"
-          className=" text-[16px] font-semibold text-secondary hover:scale-[1.1]"
-        >
-          How It Works
-        </a>
       </div>
       <div className="flex gap-2 items-center font-bold max-sm:hidden">
         <LoginButton />

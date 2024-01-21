@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap");
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url("../src/assets/fonts/overused-grotesk/OverusedGrotesk-VF-BF64eeac17efb41.ttf")
+    format("truetype");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +12,10 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
 }
 
 @layer components {
@@ -20,19 +27,16 @@
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
   }
 
-  .ul-img {
-    list-style-image: url("../src/assets/icons/tick-circle.svg");
-    list-style-position: inside;
-    list-style-type: square;
-    line-height: 1.6;
+  .poe-nth {
+    @apply md:odd:flex-row-reverse max-md:flex-col;
   }
 }
 @layer utilities {
   .padding {
-    @apply sm:px-20 px-8 sm:py-24 py-12;
+    @apply md:px-[149px] px-8 sm:py-24 py-12;
   }
   .padding-x {
-    @apply sm:px-20 px-8;
+    @apply md:px-[149px] px-8;
   }
   .padding-y {
     @apply sm:py-24 py-12;
