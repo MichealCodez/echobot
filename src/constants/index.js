@@ -47,4 +47,12 @@ const powerOfEchobot = [
   },
 ];
 
-export { multiLang, details, powerOfEchobot };
+const tryMessages = [
+  {
+    user: "echobot",
+    message:
+      "Ask me anything about health tech or  peer-to-peer service technology..",
+  },
+];
+
+export { multiLang, details, powerOfEchobot, tryMessages };

@@ -21,7 +21,7 @@ export default function App() {
       <section className="padding">
         <PowerOfEchobot />
       </section>
-      <section className="padding">
+      <section id="try-it" className="padding bg-[#001022]">
         <TryIt />
       </section>
       <section className="padding">
