@@ -3,7 +3,7 @@ import { tryMessages } from "../constants";
 import { send } from "../assets/icons";
 const TryIt = () => {
   return (
-    <div className="flex items-center max-md:flex-col">
+    <div className="flex items-end gap-5 max-xl:flex-col max-xl:items-center">
       <div className="flex flex-col gap-[40px]">
         <div className="flex flex-col gap-[11px]">
           <h3 className="text-[40px] text-white font-semibold leading-[120%]">
@@ -14,14 +14,14 @@ const TryIt = () => {
             EchoBot a try is just a click away. Here's what awaits you:
           </p>
         </div>
-        <div className="flex flex-col justify-between bg-white w-[685px] h-[474px] rounded-[19.5px] pt-[32px]">
+        <div className="flex flex-col justify-between bg-white max-w-[685px] h-[474px] rounded-[19.5px] pt-[32px]">
           <div className="px-8">
             {tryMessages.map((value) => (
               <div
                 key={value.message}
                 className={`${
                   value.user === "echobot" ? "bg-[#F5F5F5]" : "bg-white"
-                } text-[18px] font-normal leading-[150%] pl-5 py-4 pr-20 rounded-[6.5px]`}
+                } text-[18px] font-normal leading-[150%] pl-5 py-4 pr-20 max-sm:pr-5 max-sm:text-[16px] rounded-[6.5px]`}
               >
                 {value.message}
               </div>
@@ -47,7 +47,7 @@ const TryIt = () => {
         alt="White Robot"
         width={300}
         height={300}
-        className="w-[590px] h-[631px] self-end"
+        className="w-[450px] h-[550px]"
       />
     </div>
   );

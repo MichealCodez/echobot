@@ -28,7 +28,7 @@ body {
   }
 
   .poe-nth {
-    @apply md:odd:flex-row-reverse max-md:flex-col;
+    @apply md:odd:flex-row-reverse max-xl:flex-col;
   }
 }
 @layer utilities {
