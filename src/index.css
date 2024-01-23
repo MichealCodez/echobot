@@ -30,6 +30,10 @@ body {
   .poe-nth {
     @apply md:odd:flex-row-reverse max-xl:flex-col;
   }
+
+  .h3 {
+    @apply text-[40px] text-secondary font-semibold leading-[120%];
+  }
 }
 @layer utilities {
   .padding {

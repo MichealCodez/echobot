@@ -55,4 +55,25 @@ const tryMessages = [
   },
 ];
 
-export { multiLang, details, powerOfEchobot, tryMessages };
+const customerReviews = [
+  {
+    name: "Alex Johnson",
+    occupation: "Tech Innovations",
+    review:
+      "EchoBot has been a game-changer for our business. The personalized interactions it provides have enhanced user engagement on our website, and the data-driven insights have given us a deeper understanding of our customers.",
+  },
+  {
+    name: "Dr. Emily Carter",
+    occupation: "HealthHub Medical Center",
+    review:
+      "Integrating EchoBot into our healthcare practice has revolutionized patient interactions. The chatbot's ability to provide health information, schedule appointments, and offer instant responses has improved overall patient satisfaction.",
+  },
+  {
+    name: "Sarah Rodriguez",
+    occupation: "Customer Support Manager",
+    review:
+      "After implementing EchoBot into our customer support workflow, we've seen a remarkable improvement in efficiency. The automation of routine tasks allows our team to focus on more complex issues.",
+  },
+];
+
+export { multiLang, details, powerOfEchobot, tryMessages, customerReviews };
