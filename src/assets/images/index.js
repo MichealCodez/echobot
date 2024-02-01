@@ -7,6 +7,9 @@ import language from "./language.png";
 import frame1 from "./frame1.png";
 import frame2 from "./frame2.png";
 import frame3 from "./frame3.png";
+import alex from "./customers/alex.png";
+import emily from "./customers/emily.png";
+import sarah from "./customers/sarah.png";
 
 export {
   appStore,
@@ -18,4 +21,7 @@ export {
   frame1,
   frame2,
   frame3,
+  alex,
+  emily,
+  sarah,
 };

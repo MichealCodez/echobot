@@ -8,6 +8,7 @@ import send from "./send-2.svg";
 import sms from "./sms.svg";
 import tickCircle from "./tick-circle.svg";
 import x from "./x.svg";
+import qoute from "./qoute.svg";
 
 export {
   arrow,
@@ -20,4 +21,5 @@ export {
   sms,
   tickCircle,
   x,
+  qoute,
 };

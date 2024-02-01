@@ -1,3 +1,6 @@
+import { qoute } from "../assets/icons";
+import { customerReviews } from "../constants";
+
 const CustomerRevier = () => {
   return (
     <div>
@@ -8,7 +11,34 @@ const CustomerRevier = () => {
           EchoBot on their business
         </p>
       </div>
-      <div></div>
+      <div className="relative">
+        {customerReviews.map((value) => (
+          <article key={value.name}>
+            <p>{value.review}</p>
+            <figure>
+              <figcaption>
+                <h3>{value.name}</h3>
+                <p> {value.occupation}</p>
+              </figcaption>
+              <div className="absolute">
+                <img
+                  src={value.image}
+                  alt={value.name}
+                  width={300}
+                  height={300}
+                />
+                <img
+                  src={qoute}
+                  alt="open qoute"
+                  width={100}
+                  height={100}
+                  className="absolute"
+                />
+              </div>
+            </figure>
+          </article>
+        ))}
+      </div>
     </div>
   );
 };
