@@ -11,7 +11,7 @@ const CustomerRevier = () => {
           EchoBot on their business
         </p>
       </div>
-      <div className="relative">
+      <div className="relative max-w-[706px]">
         {customerReviews.map((value) => (
           <article key={value.name}>
             <p>{value.review}</p>
