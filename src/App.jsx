@@ -24,7 +24,7 @@ export default function App() {
       <section id="try-it" className="padding bg-[#001022]">
         <TryIt />
       </section>
-      <section className="padding bg-minGrad m-auto">
+      <section className="padding bg-minGrad flex justify-center">
         <CustomerRevier />
       </section>
       <section className="padding">

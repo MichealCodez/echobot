@@ -63,7 +63,7 @@ const customerReviews = [
     review:
       "EchoBot has been a game-changer for our business. The personalized interactions it provides have enhanced user engagement on our website, and the data-driven insights have given us a deeper understanding of our customers.",
   },
-  /* {
+  {
     image: emily,
     name: "Dr. Emily Carter",
     occupation: "HealthHub Medical Center",
@@ -76,7 +76,7 @@ const customerReviews = [
     occupation: "Customer Support Manager",
     review:
       "After implementing EchoBot into our customer support workflow, we've seen a remarkable improvement in efficiency. The automation of routine tasks allows our team to focus on more complex issues.",
-  }, */
+  },
 ];
 
 export { multiLang, details, powerOfEchobot, tryMessages, customerReviews };
