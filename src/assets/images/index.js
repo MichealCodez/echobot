@@ -1,6 +1,7 @@
 import appStore from "./App Store.svg";
 import googlePlay from "./Google Play.svg";
 import iPhone from "./iPhone 14 Pro.png";
+import mobile from "./mobile.png";
 import brownRobot from "./brown-robot.png";
 import whiteRobot from "./white-robot.png";
 import language from "./language.png";
@@ -15,6 +16,7 @@ export {
   appStore,
   googlePlay,
   iPhone,
+  mobile,
   brownRobot,
   whiteRobot,
   language,
