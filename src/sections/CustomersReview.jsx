@@ -55,7 +55,7 @@ const CustomersReview = () => {
         <Carousel responsive={responsive} showDots={true} customDot={<CustomDot />}>
           {customerReviews.map((value, ind) => (
             <div key={ind} className="pb-36">
-              <article className="relative flex flex-col items-center text-center bg-white rounded-2xl px-8 pt-8 pb-16 z-10 shadow-lg">
+              <article className="relative flex flex-col items-center text-center bg-white rounded-2xl px-8 pt-8 pb-16 z-10 shadow-sm">
                 <p className="max-w-[548px] px-10 max-md:px-1 mt-4">
                   {value.review}
                 </p>
