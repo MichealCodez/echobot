@@ -60,4 +60,7 @@ body {
   .info-text {
     @apply font-grotesk text-slate-gray text-lg leading-7;
   }
+  .item-width {
+    @apply w-[100%]
+  }
 }

@@ -1,4 +1,4 @@
-import CustomerRevier from "./CustomerRevier";
+import CustomersReview from "./CustomersReview";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
 import Hero from "./Hero";
@@ -8,7 +8,7 @@ import TryIt from "./TryIt";
 import GetMobile from "./GetMobile";
 
 export {
-  CustomerRevier,
+  CustomersReview,
   FAQ,
   Footer,
   Hero,

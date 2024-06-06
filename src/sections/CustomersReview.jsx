@@ -1,6 +1,6 @@
+import React from "react";
 import { qoute } from "../assets/icons";
 import { customerReviews } from "../constants";
-import { useState } from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -23,10 +23,27 @@ const responsive = {
   }
 };
 
-const CustomerRevier = () => {
-  const [index, setIndex] = useState(0);
+const CustomDot = ({ onClick, ...rest }) => {
+  const {
+    onMove,
+    index,
+    active,
+    carouselState: { currentSlide, deviceType }
+  } = rest;
   return (
-    <div className="flex flex-col items-center text-center max-w-[706px] relative">
+    <button
+      className={`${active ? "active" : "inactive"} w-[24px] m-2 h-[24px] rounded-full hover:scale-[1.2] ${
+        active ? "bg-[#FF0F7B]" : "bg-white"
+      }`}
+      onClick={() => onClick()}
+    >
+    </button>
+  );
+};
+
+const CustomersReview = () => {
+  return (
+    <div className="flex flex-col items-center text-center max-w-[706px] w-[100%] relative">
       <div className="max-w-[535px] mb-1">
         <h3 className="h3">What clients have to say</h3>
         <p className="font-normal leading-[150%] text-[#333D48] my-4 px-12 max-md:px-1">
@@ -34,8 +51,8 @@ const CustomerRevier = () => {
           EchoBot on their business
         </p>
       </div>
-      <div>
-        <Carousel responsive={responsive} showDots={true} infinite={true}>
+      <div className="w-[100%]">
+        <Carousel responsive={responsive} showDots={true} customDot={<CustomDot />}>
           {customerReviews.map((value, ind) => (
             <div key={ind} className="pb-36">
               <article className="relative flex flex-col items-center text-center bg-white rounded-2xl px-8 pt-8 pb-16 z-10 shadow-lg">
@@ -70,20 +87,8 @@ const CustomerRevier = () => {
           ))}
         </Carousel>
       </div>
-      {/* <div className="bg-white w-[90%] h-10 mt-[-4%] rounded-2xl"></div> */}
-      {/* <div className="flex justify-center mt-24 space-x-3">
-        {customerReviews.map((value, ind) => (
-          <div
-            key={value.name}
-            onClick={() => setIndex(ind)}
-            className={`w-[24px] h-[24px] bg-white rounded-full hover:scale-[1.2] ${
-              index === ind && "bg-[#FF0F7B] scale-[1.3]"
-            }`}
-          ></div>
-        ))}
-      </div> */}
     </div>
   );
 };
 
-export default CustomerRevier;
+export default CustomersReview;

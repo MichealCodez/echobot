@@ -3,7 +3,7 @@ import {
   StayConnected,
   PowerOfEchobot,
   TryIt,
-  CustomerRevier,
+  CustomersReview,
   GetMobile,
   FAQ,
   Footer,
@@ -25,7 +25,7 @@ export default function App() {
         <TryIt />
       </section>
       <section className="padding bg-minGrad flex justify-center">
-        <CustomerRevier />
+        <CustomersReview />
       </section>
       <section className="padding">
         <GetMobile />
